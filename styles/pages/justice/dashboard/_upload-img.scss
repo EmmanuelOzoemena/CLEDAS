@@ -1,0 +1,43 @@
+.image-upload-container {
+  // existing styles
+  position: relative;
+
+  .upload-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #00b368;
+    background-color: rgba(0, 179, 104, 0.31);
+    padding: 24px 32px;
+    gap: 32px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    .success-message {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 10px;
+        color: #00b368;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .close-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .image-preview {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+}
